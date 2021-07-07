@@ -36,7 +36,10 @@
 		"notskm.clang-tidy",
 		"gruntfuggly.todo-tree",
 		"alefragnani.bookmarks",
-		"marus25.cortex-debug"
+		"marus25.cortex-debug",
+		"jolaleye.horizon-theme-vscode",
+		"pkief.material-icon-theme",
+		"pkief.material-product-icons"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

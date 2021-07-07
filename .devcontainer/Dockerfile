@@ -4,13 +4,15 @@ LABEL maintainer="VzdornovNA88@yandex.com"
 
 RUN useradd -ms /bin/bash vscode-user
 
+RUN dpkg --add-architecture i386
+
 RUN apt update
 
-RUN apt install -y nano
 RUN apt install -y wget 
 RUN apt install -y unzip
 
 RUN apt install -y usbutils
+RUN apt install -y usbutils:i386
 RUN apt install -y libncurses5
 
 RUN apt install -y make
